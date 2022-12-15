@@ -9,15 +9,21 @@
     margin-top: 50px;
 }
 
+.culc_items {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+    transition: transform .4s;
+}
+
 .culc_item {
     text-decoration: none!important;
     color: #fff!important;
 }   
 
-.culc_items {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: black;
+.culc_items:hover {
+    transform: scale(1.1);
 }
 
 
