@@ -1,4 +1,4 @@
-//Calculates Speed
+//Расчет скорости
 document.getElementsByClassName('btn_speed')[0].addEventListener('click', () => {  // делаем стрелочную функцию
     let distanceForSpeed = document.getElementsByClassName('distance_for_speed')[0].value; // создали переменную и занесли туда значение из поля расстояние
     let speedTime = document.getElementsByClassName('speed_time')[0].value; // создали переменную и занесли туда значение из поля время
